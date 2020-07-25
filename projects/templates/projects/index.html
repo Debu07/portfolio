@@ -1,0 +1,251 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'projects/default.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="" />
+
+    <title>Vedant Mehta</title>
+  </head>
+  <body>
+    <section class="s1">
+      <div class="main-container">
+        <div class="greeting-wrapper">
+          <h1>Hi, I'm Vedant Mehta</h1>
+        </div>
+        <div class="intro-wrapper">
+          <div class="nav-wrapper">
+            <div class="dots-wrapper">
+              <div id="dot-red" class="browser-dot"></div>
+              <div id="dot-yellow" class="browser-dot"></div>
+              <div id="dot-green" class="browser-dot"></div>
+            </div>
+            <ul id="navigation">
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="left-column">
+            <img
+              id="profile"
+              src="{% static 'projects/profile.jpg' %}"
+              alt="profile photo"
+            />
+            <!-- <h5 style="text-align: center; line-height: 0;">
+              Personalized Theme
+            </h5> -->
+            <h3 style="text-align: center; line-height: 4;">
+              < Hello World />
+            </h3>
+            <!-- <div id="theme-options-wrapper">
+              <div data-mode="light" id="light-mode" class="theme-dot"></div>
+              <div data-mode="solar" id="solar-mode" class="theme-dot"></div>
+              <div data-mode="dark" id="dark-mode" class="theme-dot"></div>
+            </div> -->
+            <!-- <div id="theme-options-wrapper">
+            <button data-mode="light" id="light-mode" class="theme-dot"></button>
+            <button data-mode="solar" id="solar-mode" class="theme-dot"></button>
+            <button data-mode="dark" id="dark-mode" class="theme-dot"></button>
+          </div> -->
+            <!-- <p name="p" id="settings-note">
+              *Theme settings will be saved for <br />
+              your next visit.
+            </p> -->
+          </div>
+          <div class="right-column">
+            <div class="preview-shadow">
+              <div id="preview">
+                <!-- <h1>Who am I</h1> -->
+                <div id="corner-tl" class="corner"></div>
+                <div id="corner-tr" class="corner"></div>
+                <p>
+                  Fullstack Developer <br /><br />
+                  I <span style="color: red;"> Love </span> Coding and <br />
+                  Manchester United F.C.
+                </p>
+                <div id="corner-bl" class="corner"></div>
+                <div id="corner-br" class="corner"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="s2">
+      <div class="main-container">
+        <div class="about-wrapper">
+          <div class="about-me">
+            <h4>About Me</h4>
+            <p>
+              I am a person with the qualities of empathy and quick learning
+              seeking new challenges and opportunities for growth that allign
+              with my career goals.
+              <br>
+              I am Ambitious, highly Organised
+              and focused. I also have lots of Ideas and Enthusiasm.
+            </p>
+            <p>
+              My Hunger for knowledge and Determination for changing that
+              knowledge into actions has provided me with the variety of
+              information and practical skills.
+            </p>
+            <p>
+              I like to Play Football, build cool projects and exploring things.
+            </p>
+
+            <hr />
+            <h4>My skills</h4>
+            <p>Fullstack Developer</p>
+            <p>
+              <a
+                href="{% static 'projects/vedant_resume.pdf' %}"
+                target="_blank"
+              >
+                Download Resume</a
+              >
+            </p>
+
+            <div id="skills">
+              <ul>
+                <li>Python</li>
+                <li>C++</li>
+                <li>React</li>
+                <li>Express</li>
+                <li>Django</li>
+                <li>Javascript</li>
+              </ul>
+              <ul>
+                <li>HTML/CSS</li>
+                <li>Postgres</li>
+                <li>Git</li>
+                <li>AWS (RD3/S3)</li>
+                <li>APIs</li>
+                <li><a class="many">And Many more...</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="social-links">
+            <p>
+              I have passion for the work I do. I am not just looking for a job,
+              I am looking to take further steps in the career of my dreams.
+              <br /><br />
+              I would love to enter a position where I can be part of a bigger
+              team & learn from others with more experience than myself.
+            </p>
+            <div style="border-bottom: 1px solid white;"></div>
+            <h4>My Coding Profiles</h4>
+            <div id="skills">
+              <ul>
+                <li><a href="http://codeforces.com/profile/vedant74" target="_blank">Code Forces</a></li>
+                <li><a href="https://www.codechef.com/users/vedant74" target="_blank">Code Chef</a></li>
+              </ul>
+              <ul>
+                <li><a href="https://leetcode.com/vedantmehta74/" target="_blank">Leet Code</a></li>
+                <li><a href="https://www.hackerrank.com/mehtavedant7498" target="_blank">Hacker Rank</a></li>
+              </ul>
+            </div>
+
+            <p style="text-align: center;">You can find me everywhere !</p>
+            <br />
+
+            <div class="social-menu">
+              <ul>
+                <li>
+                  <a href="https://twitter.com/vedantmehta777" target="_blank"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/this.vedant/" target="_blank"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/channel/UC1Y80rlbPBFZ-j2FAs3RQvw?view_as=subscriber" target="_blank"><i class="fa fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="https://github.com/Debu07" target="_blank"><i class="fa fa-github"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/knowledge-engineer/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects section starts -->
+    <section class="s1">
+      <div id="projects" class="main-container">
+        <h3 style="text-align: center;">Some of my Projects</h3>
+        <h5 style="text-align: center;">
+          I have made {{ projects.count }} cool
+          project{{projects.count|pluralize}}
+        </h5>
+
+        <br />
+        <div class="post-wrapper">
+          {% for project in projects %}
+          <!-- post 1 -->
+          <div>
+            <div id="post" class="post">
+              <img
+                class="thumbnail"
+                src="{{project.imageone.url}}"
+                alt="project image"
+              />
+              <div class="post-preview">
+                <h6 class="post-title">{{project.title}}</h6>
+                <p name="p" class="post-intro">
+                  {{project.description|truncatechars:120}}
+                </p>
+                <a
+                  href="{% url 'projects:detail' project.id %}"
+                  rel="noopener noreferrer"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <!-- project section ends -->
+    <section class="s2">
+      <div id="contact" class="main-container">
+        <h3 style="text-align: center;">Get in Touch</h3>
+        <div class="get-in-touch">
+          <h4><i class="fa fa-envelope"></i> mehtavedant7498@gmail.com</h4>
+        </div>
+        <!-- create from here -->
+      </div>
+    </section>
+    <section class="s1">
+      <div class="main-container">
+        <div class="footer">
+          <p name="p" style="letter-spacing: 0.5rem;">
+            <strong> Vedant Mehta</strong>
+          </p>
+          <p>
+            No &copy; copyright issues. <br />
+            Feel free to copy. If you need any help, ping me !
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="{% static 'projects/script.js' %}"></script>
+  </body>
+</html>
